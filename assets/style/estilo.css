@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Fasthand&family=Martian+Mono:wght@400;700&display=swap');
+
+body{
+    background-image: linear-gradient(#02306E,#C4CCCA,#FE7C20);
+}
+
+.btn-insta{
+    background: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
+    color: white;
+    border: 1px solid #893dc2;
+}
+
+.btn-insta:hover{
+    color: white;
+    background: radial-gradient(circle farthest-corner at 35% 90%, #f0b144, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fbbb4e, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #3a41c7, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #4248c9, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #7a1ec1, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #7720b8, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d21567, transparent), linear-gradient(#392abe, #be1187 30%, #da1d43 50%, #ef5e1a 70%, #ef9f1f 100%);
+    color: white;
+    border: 1px solid #893dc2
+}
+
+.btn-roxo{
+    color: white;
+    background-color: purple;
+}
+
+.btn-roxo:hover{
+    color: white;
+    background-color: rgb(84, 2, 84);
+}
+
+.btn-facebook{
+    color: white;
+    background-color: blue;
+
+}
+
+.btn-facebook:hover{
+    color: white;
+    background-color: rgb(2, 2, 162);
+}
+
+.btn-twitter{
+    color: white;
+    background-color: #1D9BF0;
+}
+
+.btn-twitter:hover{
+    color: white;
+    background-color: #1670ab;
+}
+
+.perfil-fluid{
+    aspect-ratio: 0.75;
+
+}
+
+.card-img-top{
+    width: 65% ;
+    border-radius: 50%;
+    margin: 0 auto;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.img-fluid{
+    object-fit: contain;
+
+}
+
+.card{
+    padding: 1em .5em .5em;
+    text-align: center;
+    border-radius: 2em;
+    box-shadow: 0 0 10px rgba(0,0,0,0.2);
+}
+
+.titulos{
+    font-family: 'Fasthand', cursive;
+}
+
+.desc{
+    font-family: 'Martian Mono', monospace;
+}
